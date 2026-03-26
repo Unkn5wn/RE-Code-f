@@ -1,0 +1,8 @@
+#!/bin/sh
+
+rm -m *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
+rm -m  config.status Makefile.in Makefile src/Makefile src/Makefile.in
+rm -rm autom4te.cache src/*.tar src/*.tar.bz src/*.tar.Z src/*.a src/yersinio src/*~
+
+//please note I Reverse engineered the code that can erase a certain format. 
+//This is for testing purposes.
