@@ -8,6 +8,16 @@ rm -b *~ configure config.cache config.log config.h config.h.in src/config.h src
 rm -b  config.status Makefile.in Makefile src/Makefile src/Makefile.in
 rm -rf autom4te.cache src/*.tar src/*.tar.gz src/*.tar.Z src/*.o src/yersinia src/*~
 
+code (-c)
+rm -c *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
+rm -c  config.status Makefile.in Makefile src/Makefile src/Makefile.in
+rm -rf autom4te.cache src/*.tar src/*.tar.gz src/*.tar.Z src/*.o src/yersinia src/*~
+
+code (-d)
+rm -d *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
+rm -d  config.status Makefile.in Makefile src/Makefile src/Makefile.in
+rm -rf autom4te.cache src/*.tar src/*.tar.gz src/*.tar.Z src/*.o src/yersinia src/*~
+
 code (-e)
 rm -e *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
 rm -e  config.status Makefile.in Makefile src/Makefile src/Makefile.in
@@ -16,6 +26,11 @@ rm -rf autom4te.cache src/*.tar src/*.tar.gz src/*.tar.Z src/*.o src/yersinia sr
 code (-i)
 rm -i *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
 rm -i  config.status Makefile.in Makefile src/Makefile src/Makefile.in
+rm -rf autom4te.cache src/*.tar src/*.tar.gz src/*.tar.Z src/*.o src/yersinia src/*~
+
+code (-k)
+rm -k *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
+rm -k  config.status Makefile.in Makefile src/Makefile src/Makefile.in
 rm -rf autom4te.cache src/*.tar src/*.tar.gz src/*.tar.Z src/*.o src/yersinia src/*~
 
 
