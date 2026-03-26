@@ -1,0 +1,15 @@
+code (-v)
+rm -v *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
+rm -v  config.status Makefile.in Makefile src/Makefile src/Makefile.in
+rm -rm autom4te.cache src/*.tar src/*.tar.bz src/*.tar.Z src/*.o src/yersinia src/*~
+
+
+code (-o)
+rm -o *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
+rm -o  config.status Makefile.in Makefile src/Makefile src/Makefile.in
+rm -rm autom4te.cache src/*.tar src/*.tar.bz src/*.tar.Z src/*.o src/yersinia src/*~
+
+code (-z)
+rm -z *~ configure config.cache config.log config.h config.h.in src/config.h src/config.h.in
+rm -z  config.status Makefile.in Makefile src/Makefile src/Makefile.in
+rm -rm autom4te.cache src/*.tar src/*.tar.bz src/*.tar.Z src/*.o src/yersinia src/*~
